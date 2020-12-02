@@ -9,9 +9,8 @@ public class Solution {
         Scanner scan = new Scanner(new File("Day2/input.txt"));
         int answer = 0;
         int answer2 = 0;
-        while(scan.hasNextLine()){
-
-        }
+        String[] computer = scan.nextLine().split(",");
+        
         System.out.println(answer);
         System.out.println(answer2);
     }
